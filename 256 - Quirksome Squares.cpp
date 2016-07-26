@@ -13,8 +13,8 @@ void pre_compute()
 int main()
 {
 	int n;
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
+	//freopen("input.txt", "r", stdin);
+	//freopen("output.txt", "w", stdout);
 	pre_compute();
 	while(scanf("%d", &n) != EOF){
 		for(int i = 0; i < (int)sq.size(); i++){
