@@ -14,9 +14,7 @@ bool is_run(int n)
 	int size = str.size(); begin = str[0];
 	for(int i = 0; i < size; i++){
 		hist[str[i] - '0']++;
-	}
-	for(int i = 0; i < 10; i++){
-		if(hist[i] && hist[i] > 1) return false;
+		if(hist[str[i] - '0'] > 1) return false;
 	}
 	while(size--){
 		start = str[index]; itr = start - '0';
