@@ -27,3 +27,9 @@
 *.exe
 *.out
 *.app
+
+#vscode json files
+*.json
+
+#input and output files
+*.txt
